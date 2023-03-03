@@ -6,6 +6,8 @@ on:
   branches: [main]
 jobs:
  build:
+  env:
+   configuration: release
   runs-on: ubuntu-latest
   steps:
   - name: checkout resources
